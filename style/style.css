@@ -1,0 +1,252 @@
+@font-face {
+  font-family: "New York Small";
+  src: url("NewYorkSmall-Regular.otf");
+}
+h1 {
+  font-family: "New York Small";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px;
+  color: #2d2d2d;
+  margin: 0px;
+  letter-spacing: 0.16px;
+}
+
+h2 {
+  font-family: mr-eaves-sans, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #2d2d2d;
+  margin: 0px;
+}
+
+h3 {
+  font-family: "New York Small";
+  font-size: 24px;
+  color: #2d2d2d;
+  margin: 0px;
+  letter-spacing: 0.24px;
+}
+
+.serif-h3 {
+  font-family: mr-eaves-sans, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #2d2d2d;
+  margin: 0px;
+}
+
+p {
+  font-family: mr-eaves-sans, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #2d2d2d;
+  margin: 0px;
+}
+
+a, .label {
+  font-family: mr-eaves-sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2d2d2d;
+  margin: 0px;
+  letter-spacing: 1.6px;
+}
+
+a {
+  cursor: pointer;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: y #F4F1BB;
+}
+
+::selection {
+  background: #F4F1BB;
+}
+
+body {
+  margin: 0px;
+}
+
+hr {
+  border-top: 1px solid #ededed;
+  width: 100%;
+  margin: 0px;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0px;
+}
+
+navbar {
+  position: relative;
+  top: 0;
+  display: grid;
+  align-self: start;
+}
+
+.landing-section {
+  margin: 0 13% 0 13%;
+}
+
+.nav-content {
+  display: grid;
+  grid-template-columns: 20%;
+  grid-column-gap: 0;
+  border-bottom: 2px solid #EDEDED;
+  background-color: white;
+}
+
+.nav-content a {
+  align-self: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  grid-row: 1;
+}
+
+.nav-anchors {
+  justify-self: end;
+  align-self: center;
+  grid-row: 1;
+  margin: 0px;
+}
+
+.nav-anchors li {
+  display: inline-block;
+  margin-left: 3vw;
+}
+
+.hero-text {
+  margin-top: 96px;
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.hero-text h1 {
+  grid-column: span 8;
+}
+
+.my-process {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 96px;
+}
+
+.process-item h3 {
+  margin-top: 16px;
+  max-width: 83%;
+}
+
+.see-more {
+  margin-top: 96px;
+  display: grid;
+}
+
+.see-more img {
+  grid-row: 1;
+  align-self: center;
+  margin-right: 16px;
+}
+
+.see-more a {
+  grid-row: 1;
+  align-self: center;
+  margin-bottom: 96px;
+}
+
+.see-more a::before {
+  content: url(assets/chevron.svg);
+  padding-right: 16px;
+  align-self: center;
+}
+
+.projects {
+  width: 100vw;
+}
+
+.projects h2 {
+  margin-top: 96px;
+  font-weight: 200;
+  margin: 96px 13% 48px 13%;
+}
+
+.project {
+  width: 100%;
+  background-color: #FAFAFA;
+  box-shadow: inset 0px 3.8vw 0px 0px white;
+  box-sizing: border-box;
+}
+
+.project-details {
+  display: grid;
+  margin: 0 13%;
+  grid-column-gap: 30px;
+  grid-template-columns: repeat(12, 1fr);
+  margin-top: 64px;
+}
+
+.project-details::first-child {
+  margin-top: 0px;
+}
+
+.project-details img {
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row: 1;
+  width: 100%;
+  height: auto;
+}
+
+.project-description {
+  grid-column-start: 8;
+  grid-column-end: 13;
+  grid-row: 1;
+  background-color: white;
+  padding: 40px;
+  align-self: center;
+  font-weight: 200;
+}
+
+.project-description .serif-h3 {
+  color: #777777;
+  margin-bottom: 8px;
+}
+
+.project-description h3 {
+  margin-bottom: 8px;
+}
+
+.project-description p:last-child {
+  margin-top: 24px;
+}
+
+footer {
+  margin: 0 13% 120px 13%;
+  display: grid;
+  margin-top: 96px;
+}
+
+footer * {
+  justify-self: center;
+}
+
+footer img {
+  margin-top: 96px;
+}
+
+footer .serif-h3 {
+  margin-top: 48px;
+}
+
+footer h1 {
+  margin-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 2px dashed #CB202E;
+}
+
+/*# sourceMappingURL=style.css.map */
